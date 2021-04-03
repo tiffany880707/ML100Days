@@ -1,0 +1,33 @@
+#Question 1
+print('list(a):',list(a)) #只會把第一層轉換成list
+print('tolist:',a.tolist()) ＃每一層都會進行轉換
+
+#Question 2
+a = np.random.randint(10, size=6) 
+b = np.random.randint(10, size=(3,4)) 
+c = np.random.randint(10, size=(2,3,2)) 
+
+print(a.ndim)
+print(a.shape)
+print(a.size)
+print(a.dtype)
+print(a.itemsize)
+print(a.type)
+
+print(b.ndim) #2
+print(b.shape) #(3,4)
+print(b.size) #3*4=12
+print(b.dtype) #int 64
+print(b.itemsize) #元素大小
+print(b.type)
+
+print(c.ndim)
+print(c.shape)
+print(c.size)
+print(c.dtype)
+print(c.itemsize)
+print(c.type)
+
+#Question 3
+print('list(a):',list(a))
+print('tolist:',a.tolist())
